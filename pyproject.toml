@@ -1,0 +1,9 @@
+[project]
+name = "webtestbase"
+version = "0.1.0"
+description = "Baseline for Web Testing in Selenium (Python)"
+requires-python = ">=3.13"
+dependencies = [
+    "selenium>=4.29.0",
+    "pytest>=8.0.0",
+]

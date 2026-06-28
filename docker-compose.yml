@@ -1,0 +1,10 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-dev-env
+    volumes:
+      - .:/workspace
+    stdin_open: true
+    tty: true
